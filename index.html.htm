@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academic Archive</title>
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    function showSection(sectionId) {
+      // Hide all sections
+      const sections = document.querySelectorAll(".section");
+      sections.forEach(section => section.style.display = "none");
+
+      // Show the selected section
+      document.getElementById(sectionId).style.display = "block";
+    }
+  </script>
+</head>
+<body>
+  <header class="header">
+    <h1>Welcome to the Academic Archive</h1>
+    <p>Your gateway to knowledge resources</p>
+  </header>
+
+  <main class="main-content">
+    <!-- Homepage Section -->
+    <section id="homepage" class="section">
+      <h2>Explore Our Categories</h2>
+      <div class="faculty-grid">
+        <div class="faculty-card">
+          <a href="#" onclick="showSection('science')">
+            <img src="https://via.placeholder.com/300x200?text=Faculty+of+Science" alt="Faculty of Science">
+            <div class="overlay">Faculty of Science</div>
+          </a>
+        </div>
+        <div class="faculty-card">
+          <a href="#" onclick="showSection('pharmacy')">
+            <img src="https://via.placeholder.com/300x200?text=Faculty+of+Pharmacy" alt="Faculty of Pharmacy">
+            <div class="overlay">Faculty of Pharmacy</div>
+          </a>
+        </div>
+        <div class="faculty-card">
+          <a href="#" onclick="showSection('technology')">
+            <img src="https://via.placeholder.com/300x200?text=Faculty+of+Technology" alt="Faculty of Technology">
+            <div class="overlay">Faculty of Technology</div>
+          </a>
+        </div>
+        <div class="faculty-card">
+          <a href="#" onclick="showSection('health')">
+            <img src="https://via.placeholder.com/300x200?text=College+of+Health+Sciences" alt="College of Health Sciences">
+            <div class="overlay">College of Health Sciences</div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Faculty Sections -->
+    <section id="science" class="section" style="display: none;">
+      <h2>Faculty of Science</h2>
+      <p>Explore the departments under the Faculty of Science</p>
+      <div class="department-grid">
+        <div class="department-card">
+          <a href="https://example.com/biology">
+            <img src="https://via.placeholder.com/300x200?text=Department" alt="Biology">
+            <div class="overlay">Zoology</div>
+          </a>
+        </div>
+        <div class="department-card">
+          <a href="https://example.com/chemistry">
+            <img src="https://via.placeholder.com/300x200?text=Department" alt="Chemistry">
+            <div class="overlay">Chemistry</div>
+          </a>
+        </div>
+        <div class="department-card">
+          <a href="https://example.com/physics">
+            <img src="https://via.placeholder.com/300x200?text=Department" alt="Physics">
+            <div class="overlay">Physics</div>
+          </a>
+        </div>
+        <div class="department-card">
+          <a href="https://example.com/mathematics">
+            <img src="https://via.placeholder.com/300x200?text=Department" alt="Mathematics">
+            <div class="overlay">Mathematics</div>
+          </a>
+        </div>
+        <div class="department-card">
+          <a href="https://example.com/geology">
+            <img src="https://via.placeholder.com/300x200?text=Department" alt="Geology">
+            <div class="overlay">Geology</div>
+          </a>
+        </div>
+      </div>
+      <a href="#" onclick="showSection('homepage')" class="back-btn">Back to Homepage</a>
+    </section>
+
+    <section id="pharmacy" class="section" style="display: none;">
+      <h2>Faculty of Pharmacy</h2>
+      <p>Explore the departments under the Faculty of Pharmacy</p>
+      <div class="department-grid">
+        <div class="department-card">
+          <a href="https://example.com/pharmacology">
+            <img src="https://via.placeholder.com/300x200?text=Department" alt="Pharmacology">
+            <div class="overlay">Pharmacology</div>
+          </a>
+        </div>
+        <div class="department-card">
+          <a href="https://example.com/pharmaceutics">
+            <img src="https://via.placeholder.com/300x200?text=Department" alt="Pharmaceutics">
+            <div class="overlay">Pharmaceutics</div>
+          </a>
+        </div>
+        <div class="department-card">
+          <a href="https://example.com/clinical-pharmacy">
+            <img src="https://via.placeholder.com/300x200?text=Department" alt="Clinical Pharmacy">
+            <div class="overlay">Clinical Pharmacy</div>
+          </a>
+        </div>
+      </div>
+      <a href="#" onclick="showSection('homepage')" class="back-btn">Back to Homepage</a>
+    </section>
+
+    <section id="technology" class="section" style="display: none;">
+      <h2>Faculty of Technology</h2>
+      <p>Explore the departments under the Faculty of Technology</p>
+      <div class="department-grid">
+        <div class="department-card">
+          <a href="https://example.com/computer-science">
+            <img src="https://via.placeholder.com/300x200?text=Department" alt="Computer Science">
+            <div class="overlay">Computer Science</div>
+          </a>
+        </div>
+        <div class="department-card">
+          <a href="https://example.com/information-technology">
+            <img src="https://via.placeholder.com/300x200?text=Department" alt="Information Technology">
+            <div class="overlay">Information Technology</div>
+          </a>
+        </div>
+        <div class="department-card">
+          <a href="https://example.com/software-engineering">
+            <img src="https://via.placeholder.com/300x200?text=Department" alt="Software Engineering">
+            <div class="overlay">Software Engineering</div>
+          </a>
+        </div>
+      </div>
+      <a href="#" onclick="showSection('homepage')" class="back-btn">Back to Homepage</a>
+    </section>
+
+    <section id="health" class="section" style="display: none;">
+      <h2>College of Health Sciences</h2>
+      <p>Explore the departments under the College of Health Sciences</p>
+      <div class="department-grid">
+        <div class="department-card">
+          <a href="https://example.com/nursing">
+            <img src="https://via.placeholder.com/300x200?text=Department" alt="Nursing">
+            <div class="overlay">Nursing</div>
+          </a>
+        </div>
+        <div class="department-card">
+          <a href="https://example.com/physiotherapy">
+            <img src="https://via.placeholder.com/300x200?text=Department" alt="Physiotherapy">
+            <div class="overlay">Physiotherapy</div>
+          </a>
+        </div>
+        <div class="department-card">
+          <a href="https://example.com/public-health">
+            <img src="https://via.placeholder.com/300x200?text=Department" alt="Public Health">
+            <div class="overlay">Public Health</div>
+          </a>
+        </div>
+        <div class="department-card">
+          <a href="https://example.com/medicine">
+            <img src="https://via.placeholder.com/300x200?text=Department" alt="Medicine">
+            <div class="overlay">Medicine</div>
+          </a>
+        </div>
+      </div>
+      <a href="#" onclick="showSection('homepage')" class="back-btn">Back to Homepage</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 Academic Archive. All rights reserved. Obafemi Awolowo University</p>
+  </footer>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
