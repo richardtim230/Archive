@@ -57,7 +57,7 @@ a:hover {
 .faculty-card,
 .department-card {
   position: relative;
-  overflow-x: auto;
+  overflow: fixed;
   border-radius: 20px;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
