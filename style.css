@@ -50,7 +50,7 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
-  padding: 50px;
+  padding: 30px;
 }
 
 .faculty-card,
@@ -550,7 +550,7 @@ a {
 
   gap: 30px;
 
-  padding: 0 20px;
+  padding: 0 10px;
 
 }
 
