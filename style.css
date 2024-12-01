@@ -31,7 +31,7 @@ a:hover {
 }
 
 .header h1 {
-  font-size: 2.3rem;
+  font-size: 2.0rem;
   margin-bottom: 20px;
   font-weight: 700;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
@@ -39,6 +39,7 @@ a:hover {
 
 .header p {
   font-size: 1.2rem;
+  font: bold;
   font-weight: 300;
   opacity: 0.8;
 }
@@ -174,4 +175,955 @@ a:hover {
 #health .header,
 #health .department-card .overlay {
   background: linear-gradient(120deg, #c31432, #240b36);
+}
+
+#zoology .header,
+#biology .level-card .overlay {
+  background: linear-gradient(120deg, #6a11cb, #2575fc);
+}
+
+#bio-level100 .header {
+  background: linear-gradient(120deg, #34e89e, #0f3443);
+}
+
+/* General Styles */
+
+#zoology * {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+#zoology {
+
+  font-family: 'Roboto', sans-serif;
+
+  line-height: 1.6;
+
+  color: #333;
+
+  background-color: #f9f9f9;
+
+}
+
+#zoology a {
+
+  text-decoration: none;
+
+  color: inherit;
+
+}
+
+/* Header */
+
+#zoology .header {
+
+  text-align: center;
+
+  padding: 60px 20px;
+
+  background: linear-gradient(120deg, #56ab2f, #a8e063);
+
+  color: white;
+
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+
+}
+
+#zoology .header h1 {
+
+  font-size: 2.5rem;
+
+  margin-bottom: 15px;
+
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+#zoology .header p {
+
+  font-size: 1.2rem;
+
+  font-weight: 300;
+
+  opacity: 0.9;
+
+}
+
+/* Hide Homepage Header */
+
+body.department-page .homepage-header {
+
+  display: none;
+
+}
+
+/* Intro Section */
+
+#zoology .intro {
+
+  padding: 40px 20px;
+
+  text-align: center;
+
+  background: white;
+
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+  margin: 20px auto;
+
+  border-radius: 10px;
+
+  max-width: 800px;
+
+}
+
+#zoology .intro h2 {
+
+  font-size: 2rem;
+
+  color: #444;
+
+  margin-bottom: 20px;
+
+}
+
+#zoology .intro p {
+
+  font-size: 1.1rem;
+
+  opacity: 0.8;
+
+}
+
+/* Levels Section */
+
+#zoology .levels {
+
+  padding: 40px 20px;
+
+  text-align: center;
+
+}
+
+#zoology .levels h2 {
+
+  font-size: 2rem;
+
+  margin-bottom: 30px;
+
+  color: #444;
+
+}
+
+#zoology .level-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+  gap: 20px;
+
+  padding: 0 20px;
+
+}
+
+#zoology .level-card {
+
+  position: relative;
+
+  border-radius: 15px;
+
+  overflow: hidden;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+
+  height: 200px;
+
+  background: url('https://via.placeholder.com/300x200?text=Level') no-repeat center center / cover;
+
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+
+}
+
+#zoology .level-card:hover {
+
+  transform: translateY(-10px);
+
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+
+}
+
+#zoology .level-card .overlay {
+
+  position: absolute;
+
+  bottom: 0;
+
+  width: 100%;
+
+  padding: 15px;
+
+  text-align: center;
+
+  font-size: 1.5rem;
+
+  font-weight: bold;
+
+  color: white;
+
+  background: rgba(0, 0, 0, 0.6);
+
+  transition: background 0.4s ease;
+
+}
+
+#zoology .level-card:hover .overlay {
+
+  background: rgba(0, 0, 0, 0.8);
+
+}
+
+/* Footer */
+
+#zoology .footer {
+
+  text-align: center;
+
+  padding: 20px;
+
+  background: #333;
+
+  color: #ccc;
+
+  margin-top: 40px;
+
+  font-size: 0.9rem;
+
+}
+
+#zoology .footer a {
+
+  color: #56ab2f;
+
+}
+
+#zoology .footer a:hover {
+
+  color: #a8e063;
+
+}
+
+/* General Reset */
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+body {
+
+  font-family: 'Roboto', sans-serif;
+
+  line-height: 1.6;
+
+  color: #333;
+
+  background-color: #f9f9f9;
+
+}
+
+a {
+
+  text-decoration: none;
+
+  color: inherit;
+
+}
+
+/* Common Header Style */
+
+.department .header {
+
+  text-align: center;
+
+  padding: 60px 20px;
+
+  color: white;
+
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+
+}
+
+.department .header h1 {
+
+  font-size: 2.5rem;
+
+  margin-bottom: 15px;
+
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.department .header p {
+
+  font-size: 1.2rem;
+
+  font-weight: 300;
+
+  opacity: 0.9;
+
+}
+
+/* Intro Section */
+
+.department .intro {
+
+  padding: 40px 20px;
+
+  text-align: center;
+
+  background: white;
+
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+  margin: 30px auto;
+
+  border-radius: 10px;
+
+  max-width: 800px;
+
+}
+
+.department .intro h2 {
+
+  font-size: 2rem;
+
+  color: #444;
+
+  margin-bottom: 20px;
+
+}
+
+.department .intro p {
+
+  font-size: 1.1rem;
+
+  opacity: 0.8;
+
+}
+
+/* Levels Section */
+
+.department .levels {
+
+  padding: 40px 20px;
+
+  text-align: center;
+
+}
+
+.department .levels h2 {
+
+  font-size: 2rem;
+
+  margin-bottom: 30px;
+
+  color: #444;
+
+}
+
+.department .level-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+  gap: 30px;
+
+  padding: 0 20px;
+
+}
+
+.department .level-card {
+
+  position: relative;
+
+  border-radius: 15px;
+
+  overflow: hidden;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+
+  height: 200px;
+
+  background: url('https://via.placeholder.com/300x200?text=Level') no-repeat center center / cover;
+
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+
+}
+
+.department .level-card:hover {
+
+  transform: translateY(-10px);
+
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+
+}
+
+.department .level-card .overlay {
+
+  position: absolute;
+
+  bottom: 0;
+
+  width: 100%;
+
+  padding: 15px;
+
+  text-align: center;
+
+  font-size: 1.5rem;
+
+  font-weight: bold;
+
+  color: white;
+
+  background: rgba(0, 0, 0, 0.6);
+
+  transition: background 0.4s ease;
+
+}
+
+.department .level-card:hover .overlay {
+
+  background: rgba(0, 0, 0, 0.8);
+
+}
+
+/* Footer */
+
+.department .footer {
+
+  text-align: center;
+
+  padding: 20px;
+
+  margin-top: 40px;
+
+  font-size: 0.9rem;
+
+  color: white;
+
+}
+
+#zoology .header {
+
+  background: linear-gradient(120deg, #56ab2f, #a8e063);
+
+}
+
+#zoology .footer {
+
+  background: #333;
+
+}
+
+#mathematics .header {
+
+  background: linear-gradient(120deg, #2196f3, #21cbf3);
+
+}
+
+#mathematics .footer {
+
+  background: #222;
+
+}
+
+#chemistry .header {
+
+  background: linear-gradient(120deg, #ff5722, #ff9800);
+
+}
+
+#chemistry .footer {
+
+  background: #444;
+
+}
+
+#physics .header {
+
+  background: linear-gradient(120deg, #673ab7, #9c27b0);
+
+}
+
+#physics .footer {
+
+  background: #555;
+
+}
+
+#geology .header {
+
+  background: linear-gradient(120deg, #ffeb3b, #fbc02d);
+
+}
+
+#geology .footer {
+
+  background: #666;
+
+}
+
+#mathematics .level-card {
+
+  position: relative;
+
+  border-radius: 15px;
+
+  overflow: hidden;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+
+  height: 200px;
+
+  background: url('https://via.placeholder.com/300x200?text=Mathematics+Level') no-repeat center center / cover;
+
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+
+}
+
+#mathematics .level-card:hover {
+
+  transform: scale(1.1);
+
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+
+}
+
+#mathematics .level-card .overlay {
+
+  position: absolute;
+
+  bottom: 0;
+
+  width: 100%;
+
+  padding: 15px;
+
+  text-align: center;
+
+  font-size: 1.5rem;
+
+  font-weight: bold;
+
+  color: white;
+
+  background: linear-gradient(to top, rgba(33, 150, 243, 0.8), rgba(33, 203, 243, 0.8));
+
+  transition: background 0.3s ease, transform 0.3s ease;
+
+}
+
+#mathematics .level-card:hover .overlay {
+
+  background: linear-gradient(to top, rgba(33, 150, 243, 1), rgba(33, 203, 243, 1));
+
+  transform: translateY(-15px);
+
+}
+
+#chemistry .level-card {
+
+  position: relative;
+
+  border-radius: 15px;
+
+  overflow: hidden;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+
+  height: 200px;
+
+  background: url('https://via.placeholder.com/300x200?text=Chemistry+Level') no-repeat center center / cover;
+
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+
+}
+
+#chemistry .level-card:hover {
+
+  transform: scale(1.1) rotate(3deg);
+
+  box-shadow: 0 12px 40px rgba(255, 87, 34, 0.3);
+
+}
+
+#chemistry .level-card .overlay {
+
+  position: absolute;
+
+  bottom: 0;
+
+  width: 100%;
+
+  padding: 15px;
+
+  text-align: center;
+
+  font-size: 1.5rem;
+
+  font-weight: bold;
+
+  color: white;
+
+  background: linear-gradient(to top, rgba(255, 87, 34, 0.8), rgba(255, 152, 0, 0.8));
+
+  transition: background 0.3s ease, transform 0.3s ease;
+
+}
+
+#chemistry .level-card:hover .overlay {
+
+  background: linear-gradient(to top, rgba(255, 87, 34, 1), rgba(255, 152, 0, 1));
+
+  transform: translateY(-10px);
+
+}
+
+#physics .level-card {
+
+  position: relative;
+
+  border-radius: 15px;
+
+  overflow: hidden;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+
+  height: 200px;
+
+  background: url('https://via.placeholder.com/300x200?text=Physics+Level') no-repeat center center / cover;
+
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+
+}
+
+#physics .level-card:hover {
+
+  transform: translateY(-10px) scale(1.08);
+
+  box-shadow: 0 12px 40px rgba(103, 58, 183, 0.3);
+
+}
+
+#physics .level-card .overlay {
+
+  position: absolute;
+
+  bottom: 0;
+
+  width: 100%;
+
+  padding: 15px;
+
+  text-align: center;
+
+  font-size: 1.5rem;
+
+  font-weight: bold;
+
+  color: white;
+
+  background: linear-gradient(to top, rgba(103, 58, 183, 0.8), rgba(156, 39, 176, 0.8));
+
+  transition: background 0.3s ease, transform 0.3s ease;
+
+}
+
+#physics .level-card:hover .overlay {
+
+  background: linear-gradient(to top, rgba(103, 58, 183, 1), rgba(156, 39, 176, 1));
+
+  transform: translateY(-15px);
+
+}
+
+#geology .level-card {
+
+  position: relative;
+
+  border-radius: 15px;
+
+  overflow: hidden;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+
+  height: 200px;
+
+  background: url('https://via.placeholder.com/300x200?text=Geology+Level') no-repeat center center / cover;
+
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+
+}
+
+#geology .level-card:hover {
+
+  transform: scale(1.05) rotate(-2deg);
+
+  box-shadow: 0 12px 40px rgba(255, 235, 59, 0.3);
+
+}
+
+#geology .level-card .overlay {
+
+  position: absolute;
+
+  bottom: 0;
+
+  width: 100%;
+
+  padding: 15px;
+
+  text-align: center;
+
+  font-size: 1.5rem;
+
+  font-weight: bold;
+
+  color: black;
+
+  background: linear-gradient(to top, rgba(255, 235, 59, 0.8), rgba(251, 192, 45, 0.8));
+
+  transition: background 0.3s ease, transform 0.3s ease;
+
+}
+
+#geology .level-card:hover .overlay {
+
+  background: linear-gradient(to top, rgba(255, 235, 59, 1), rgba(251, 192, 45, 1));
+
+  transform: translateY(-10px);
+
+}
+
+/* Hide Level Pages from Homepage */
+body:not(.level-page) #chemistry-level100,
+body:not(.level-page) #chemistry-level200,
+body:not(.level-page) #chemistry-level300,
+body:not(.level-page) #lecture-videos, 
+body:not(.level-page) #chemistry-level400 {
+  display: none;
+}
+
+/* Intro Section */
+
+.level-page .intro {
+
+  padding: 40px 20px;
+
+  text-align: center;
+
+  background: white;
+
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+  margin: 20px auto;
+
+  border-radius: 10px;
+
+  max-width: 800px;
+
+}
+
+.level-page .intro h2 {
+
+  font-size: 2rem;
+
+  color: #444;
+
+  margin-bottom: 20px;
+
+}
+
+.level-page .intro p {
+
+  font-size: 1.1rem;
+
+  opacity: 0.8;
+
+}
+
+/* Notes Section */
+
+.level-page .notes {
+
+  margin: 20px auto;
+
+  max-width: 800px;
+
+}
+
+.level-page .notes h3 {
+
+  font-size: 1.5rem;
+
+  color: #555;
+
+  margin-bottom: 10px;
+
+}
+
+.level-page .notes ul {
+
+  list-style: disc;
+
+  margin: 10px 0 20px 20px;
+
+}
+
+.level-page .notes ul li {
+
+  margin: 5px 0;
+
+}
+
+.level-page .notes p {
+
+  margin: 10px 0;
+
+}
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  padding: 60px 20px;
+  color: white;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.header p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  opacity: 0.9;
+}
+
+/* Video Grid */
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+/* Video Card */
+.video-card {
+  position: relative;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.video-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.video-card iframe {
+  width: 100%;
+  height: 200px;
+  border: none;
+}
+
+.video-info {
+  padding: 15px;
+  text-align: center;
+}
+
+.video-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #512da8;
+}
+
+.video-info p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: #ccc;
+  font-size: 0.9rem;
+  margin-top: 40px;
+}
+
+.footer a {
+  color: #512da8;
+}
+
+.footer a:hover {
+  color: #673ab7;
+}
+/* Button Style */
+.buttons {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  color: white;
+  background: linear-gradient(120deg, #673ab7, #512da8);
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+  background: linear-gradient(120deg, #512da8, #673ab7);
+  transform: scale(1.05);
 }
