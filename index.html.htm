@@ -39,6 +39,14 @@
         <button id="redirect-btn" class="overlay-button">Visit Info Page</button>
     </div>
 </section>
+document.addEventListener("DOMContentLoaded", () => {
+    const redirectBtn = document.getElementById("redirect-btn");
+
+    // Redirect users when the button is clicked
+    redirectBtn.addEventListener("click", () => {
+        window.location.href = "https://example.com";  // Replace with your actual URL
+    });
+});
 
   <main class="main-content">
     <!-- Homepage Section -->
