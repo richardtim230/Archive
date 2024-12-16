@@ -25,6 +25,15 @@
       document.getElementById(sectionId).style.display = "block";
     }
   </script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const redirectBtn = document.getElementById("redirect-btn");
+
+    // Redirect users when the button is clicked
+    redirectBtn.addEventListener("click", () => {
+        window.location.href = "https://examguide.vercel.app";  // Replace with your actual URL
+    });
+});
+
 </head>
 <body>
   <header class="header">
@@ -39,14 +48,6 @@
         <button id="redirect-btn" class="overlay-button">Visit Info Page</button>
     </div>
 </section>
-document.addEventListener("DOMContentLoaded", () => {
-    const redirectBtn = document.getElementById("redirect-btn");
-
-    // Redirect users when the button is clicked
-    redirectBtn.addEventListener("click", () => {
-        window.location.href = "https://examguide.vercel.app";  // Replace with your actual URL
-    });
-});
 
   <main class="main-content">
     <!-- Homepage Section -->
