@@ -16,6 +16,15 @@
   <title>Academic Archive</title>
   <link rel="stylesheet" href="styles.css">
   <script>
+document.addEventListener("DOMContentLoaded", () => {
+    const redirectBtn = document.getElementById("redirect-btn");
+
+    // Redirect users when the button is clicked
+    redirectBtn.addEventListener("click", () => {
+        window.location.href = "https://examguide.vercel.app";  // Replace with your actual URL
+    });
+});
+    
     function showSection(sectionId) {
       // Hide all sections
       const sections = document.querySelectorAll(".section");
@@ -25,15 +34,6 @@
       document.getElementById(sectionId).style.display = "block";
     }
   </script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const redirectBtn = document.getElementById("redirect-btn");
-
-    // Redirect users when the button is clicked
-    redirectBtn.addEventListener("click", () => {
-        window.location.href = "https://examguide.vercel.app";  // Replace with your actual URL
-    });
-});
-
 </head>
 <body>
   <header class="header">
@@ -774,7 +774,6 @@ and recurring chemical properties.
  <a href="#" onclick="showSection('chemistry')" class="back-btn">Back to Chemistry</a>
   </main>
   </section>
-
 
   <section id="lecture-videos">
   <header class="header" style="background: linear-gradient(120deg, #673ab7, #512da8);">
