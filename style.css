@@ -29,9 +29,7 @@ a:hover {
   color: white;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
-    .hidden {
-        display: none !important;
-  }
+    
 
 .header h1 {
   font-size: 1.4rem;
@@ -45,6 +43,9 @@ a:hover {
   font: bold;
   font-weight: 500;
   opacity: 0.8;
+}
+.hidden {
+        display: none !important;
 }
 
 /* Overlay Container */
@@ -522,7 +523,7 @@ body.department-page .homepage-header {
 
 }
 
-#zoology #microbiology #botany #biochemistry .level-card:hover {
+#zoology .level-card:hover {
 
   transform: translateY(-10px);
 
@@ -530,7 +531,31 @@ body.department-page .homepage-header {
 
 }
 
-#zoology #microbiology #botany #biochemistry .level-card .overlay {
+     #microbiology .level-card:hover {
+
+  transform: translateY(-10px);
+
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+
+}
+
+ #botany .level-card:hover {
+
+  transform: translateY(-10px);
+
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+
+}
+
+  #biochemistry .level-card:hover {
+
+  transform: translateY(-10px);
+
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+
+}
+
+#zoology .level-card .overlay {
 
   position: absolute;
 
@@ -554,11 +579,101 @@ body.department-page .homepage-header {
 
 }
 
-#zoology #microbiology #botany #biochemistry .level-card:hover .overlay {
+  
+#microbiology .level-card .overlay {
+
+  position: absolute;
+
+  bottom: 0;
+
+  width: 100%;
+
+  padding: 15px;
+
+  text-align: center;
+
+  font-size: 1.5rem;
+
+  font-weight: bold;
+
+  color: white;
+
+  background: rgba(0, 0, 0, 0.6);
+
+  transition: background 0.4s ease;
+
+}
+
+#botany .level-card .overlay {
+
+  position: absolute;
+
+  bottom: 0;
+
+  width: 100%;
+
+  padding: 15px;
+
+  text-align: center;
+
+  font-size: 1.5rem;
+
+  font-weight: bold;
+
+  color: white;
+
+  background: rgba(0, 0, 0, 0.6);
+
+  transition: background 0.4s ease;
+
+}
+
+  #biochemistry .level-card .overlay {
+
+  position: absolute;
+
+  bottom: 0;
+
+  width: 100%;
+
+  padding: 15px;
+
+  text-align: center;
+
+  font-size: 1.5rem;
+
+  font-weight: bold;
+
+  color: white;
+
+  background: rgba(0, 0, 0, 0.6);
+
+  transition: background 0.4s ease;
+
+}
+
+#zoology .level-card:hover .overlay {
 
   background: rgba(0, 0, 0, 0.8);
 
 }
+
+    #microbiology .level-card:hover .overlay {
+
+  background: rgba(0, 0, 0, 0.8);
+
+}
+ #botany .level-card:hover .overlay {
+
+  background: rgba(0, 0, 0, 0.8);
+
+}
+ #biochemistry .level-card:hover .overlay {
+
+  background: rgba(0, 0, 0, 0.8);
+
+}
+
 
 /* Footer */
 
