@@ -34,6 +34,11 @@ document.addEventListener("DOMContentLoaded", () => {
       // Show the selected section
       document.getElementById(sectionId).style.display = "block";
     }
+
+    // Show the header only on the homepage
+  if (window.location.pathname === '/') {
+    document.getElementById('homepage-header').style.display = 'block';
+    }
   </script>
 </head>
 <body>
