@@ -44,6 +44,15 @@ a:hover {
   font-weight: 500;
   opacity: 0.8;
 }
+
+  .homepage-header {
+    display: none;
+  }
+
+  /* Show header only on the homepage */
+  body.homepage .homepage-header {
+    display: block;
+  }
 .hidden {
         display: none !important;
 }
