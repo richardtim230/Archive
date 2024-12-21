@@ -15,6 +15,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Academic Archive</title>
   <link rel="stylesheet" href="styles.css">
+
+  <script>
+document.addEventListener("DOMContentLoaded", () => {
+    const redirectBtn = document.getElementById("redirect-btn");
+
+    // Redirect users when the button is clicked
+    redirectBtn.addEventListener("click", () => {
+        window.location.href = "https://examguide.vercel.app";  // Replace with your actual URL
+    });
+});
+    
+    function showSection(sectionId) {
+      // Hide all sections
+      const sections = document.querySelectorAll(".section");
+      sections.forEach(section => section.style.display = "none");
+
+      // Show the selected section
+      document.getElementById(sectionId).style.display = "block";
+    }
   </script>
 </head>
 <body>
