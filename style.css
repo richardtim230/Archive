@@ -29,6 +29,9 @@ a:hover {
   color: white;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
+    .hidden {
+        display: none !important;
+  }
 
 .header h1 {
   font-size: 1.4rem;
