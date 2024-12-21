@@ -45,12 +45,12 @@ a:hover {
   opacity: 0.8;
 }
 
-  .homepage-header {
+  .header {
     display: none;
   }
 
   /* Show header only on the homepage */
-  body.homepage .homepage-header {
+  body .header {
     display: block;
   }
 .hidden {
