@@ -26,10 +26,13 @@ a:hover {
   text-align: center;
   padding: 80px 20px;
   background: linear-gradient(120deg, #6a11cb, #2575fc);
-  color: white;
+  color: blue;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
     
+  .header {
+    display: none;
+  }
 
 .header h1 {
   font-size: 1.0rem;
@@ -145,7 +148,7 @@ a:hover {
   gap: 20px;
 
   background-size: 100% 100%;
-
+  border-radius: 25px;
   padding: 0 20px;
 
 }
@@ -855,7 +858,7 @@ a {
 
 .department .intro {
 
-  padding: 30px 10px;
+  padding: 20px 10px;
 
   text-align: center;
 
