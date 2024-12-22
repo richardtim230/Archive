@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #f9fbe7, #ffe0b2);
+  color: #4e342e;
+  overflow-x: hidden;
+}
+
+.header {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(145deg, #ffe082, #ffcc80);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  color: #bf360c;
+  border-bottom: 5px solid #ffab40;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.department-container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+.courses-list {
+  margin: 20px 0;
+}
+
+.courses-list h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #6d4c41;
+  border-bottom: 3px solid #8d6e63;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 20px 0;
+}
+
+.course-card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: linear-gradient(145deg, #ffe082, #ffcc80);
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, background 0.3s;
+  border-left: 5px solid #ffab40;
+}
+
+.course-card h3 {
+  margin: 0 0 10px;
+  color: #6d4c41;
+}
+
+.course-card .preview {
+  font-size: 0.95rem;
+  color: #4e342e;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  background: linear-gradient(145deg, #ffcc80, #ffe082);
+}
+
+.course-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.course-details {
+  margin-top: 15px;
+  padding: 15px;
+  background: #ffe082;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  border-left: 5px solid #ffab40;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  background: linear-gradient(90deg, #ff8a65, #ff7043);
+  color: #fff;
+  text-align: center;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: linear-gradient(90deg, #ff7043, #ff8a65);
+}
