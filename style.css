@@ -752,7 +752,7 @@ body .department-page .homepage-header {
 
 /* Footer */
 
-#zoology #microbiology #botany #biochemistry .footer {
+#nutrition #zoology #microbiology #botany #biochemistry .footer {
 
   text-align: center;
 
@@ -768,13 +768,13 @@ body .department-page .homepage-header {
 
 }
 
-#zoology #microbiology #botany #biochemistry .footer a {
+#nutrition #zoology #microbiology #botany #biochemistry .footer a {
 
   color: #56ab2f;
 
 }
 
-#zoology #microbiology #botany #biochemistry .footer a:hover {
+#nutrition #zoology #microbiology #botany #biochemistry .footer a:hover {
 
   color: #a8e063;
 
@@ -891,7 +891,7 @@ a {
   padding: 40px 20px;
 
   text-align: center;
-
+left-margin: 0;
 }
 
 .department .levels h2 {
@@ -901,7 +901,7 @@ a {
   margin-bottom: 30px;
 
   color: #444;
-
+left-margin: 0;
 }
 
 .department .level-grid {
@@ -913,7 +913,7 @@ a {
   gap: 30px;
 
   padding: 0 10px;
-
+left-margin: 0;
 }
 
 .department .level-card {
@@ -927,7 +927,7 @@ a {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 
   height: 200px;
-
+left-margin: 0;
   background: url('https://via.placeholder.com/300x200?text=Level') no-repeat center center / cover;
   background-size: 100% 100%;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
@@ -1234,7 +1234,7 @@ a {
 
   height: 200px;
 
-  background: url('https://via.placeholder.com/300x200?text=Geology+Level') no-repeat center center / cover;
+  background: url('closeup-head-great-angleheaded-dragon-gonocephalus-grandis_488145-389.jpg?text=Geology+Level') no-repeat center center / cover;
 
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 
