@@ -426,6 +426,20 @@ body.department-page .homepage-header {
 
 }
 
+  #nutrition .level-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+  gap: 20px;
+
+  background-size: 100% 100%;
+
+  padding: 0 20px;
+
+}
+
   #microbiology .level-grid {
 
   display: grid;
@@ -499,6 +513,25 @@ body.department-page .homepage-header {
 }
 
   #botany .level-card {
+
+  position: relative;
+
+  border-radius: 15px;
+
+  overflow: hidden;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+
+  height: 200px;
+
+  background: url('https://via.placeholder.com/300x200?text=Level') no-repeat center center / cover;
+
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+
+}
+
+  
+  #nutrition .level-card {
 
   position: relative;
 
@@ -591,6 +624,30 @@ body.department-page .homepage-header {
 }
 
   
+#nutrition .level-card .overlay {
+
+  position: absolute;
+
+  bottom: 0;
+
+  width: 100%;
+
+  padding: 15px;
+
+  text-align: center;
+
+  font-size: 1.5rem;
+
+  font-weight: bold;
+
+  color: white;
+
+  background: rgba(0, 0, 0, 0.6);
+
+  transition: background 0.4s ease;
+
+}
+  
 #microbiology .level-card .overlay {
 
   position: absolute;
@@ -674,6 +731,13 @@ body.department-page .homepage-header {
   background: rgba(0, 0, 0, 0.8);
 
 }
+
+    #nutrition .level-card:hover .overlay {
+
+  background: rgba(0, 0, 0, 0.8);
+
+}
+
  #botany .level-card:hover .overlay {
 
   background: rgba(0, 0, 0, 0.8);
