@@ -32,14 +32,14 @@ a:hover {
     
 
 .header h1 {
-  font-size: 1.4rem;
+  font-size: 1.0rem;
   margin-bottom: 20px;
   font-weight: 700;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .header p {
-  font-size: 1.0rem;
+  font-size: 0.5rem;
   font: bold;
   font-weight: 500;
   opacity: 0.8;
@@ -419,6 +419,8 @@ body.department-page .homepage-header {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 
   gap: 20px;
+
+  background-size: 100% 100%;
 
   padding: 0 20px;
 
@@ -863,7 +865,7 @@ a {
   height: 200px;
 
   background: url('https://via.placeholder.com/300x200?text=Level') no-repeat center center / cover;
-
+  background-size: 100% 100%;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 
 }
