@@ -219,7 +219,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
         </div>
         <div class="department-card">
-          <a href="https://example.com/medicine">
+          <a href="#" onclick="showSection('nutrition')">
             <img src="https://via.placeholder.com/300x200?text=Department" alt="Medicine">
             <div class="overlay">Human Nutrition and Dietetics</div>
           </a>
@@ -603,7 +603,64 @@ document.addEventListener("DOMContentLoaded", () => {
     <a href="#" onclick="showSection('science')" class="back-btn">Back to Faculty of Science</a>
   </main>
 </section>
+<section id="nutrition" class="section" style="display: none;">
+  <header class="header">
+    <h1>Department of Human Nutrition and Dietetics</h1>
+    <p>
+      Welcome to the Human Nutrition and Dietetics department, a hub for understanding the science of nutrition and its 
+      impact on health and well-being.
+    </p>
+  </header>
 
+  <main class="main-content">
+    <!-- Introduction -->
+    <div class="intro">
+      <h2>About Human Nutrition and Dietetics</h2>
+      <p>
+        Human Nutrition and Dietetics is an interdisciplinary field that focuses on the role of food and nutrients in health, 
+        disease prevention, and overall well-being. The department provides students with the knowledge and skills to excel 
+        in clinical, community, and research settings.
+      </p>
+    </div>
+
+    <!-- Levels Section -->
+    <section class="levels">
+      <h2>Levels of Study</h2>
+      <div class="level-grid">
+        <!-- Level 100 -->
+        <div class="level-card">
+          <a href="#" onclick="showSection('nutrition-level100')">
+            <img src="healthy-food-bowl-with-grains-vegetables-proteins_23-2148725895.jpg?text=Faculty+of+Science" alt="Level 100">
+            <div class="overlay">Level 100</div>
+          </a>
+        </div>
+        <!-- Level 200 -->
+        <div class="level-card">
+          <a href="#" onclick="showSection('nutrition-level200')">
+            <img src="nutritionist-doctor-table-with-vegetables-healthy-food_23-2148896936.jpg?text=Faculty+of+Science" alt="Level 200">
+            <div class="overlay">Level 200</div>
+          </a>
+        </div>
+        <!-- Level 300 -->
+        <div class="level-card">
+          <a href="#" onclick="showSection('nutrition-level300')">
+            <img src="balanced-nutrition-diet-healthy-eating-concept_23-2149232862.jpg?text=Faculty+of+Science" alt="Level 300">
+            <div class="overlay">Level 300</div>
+          </a>
+        </div>
+        <!-- Level 400 -->
+        <div class="level-card">
+          <a href="#" onclick="showSection('nutrition-level400')">
+            <img src="dietician-consulting-patient-office_23-2148993426.jpg?text=Faculty+of+Science" alt="Level 400">
+            <div class="overlay">Level 400</div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+</section>
+
+  
 <!-- Level 100 -->
 <section id="botany-level100" class="section" style="display: none;">
   <header class="header">
