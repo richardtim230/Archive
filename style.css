@@ -348,7 +348,7 @@ a:hover {
 
 /* Hide Homepage Header */
 
-body.department-page .homepage-header {
+body .department-page .homepage-header {
 
   display: none;
 
@@ -543,7 +543,7 @@ body.department-page .homepage-header {
 
   height: 200px;
 
-  background: url('https://via.placeholder.com/300x200?text=Level') no-repeat center center / cover;
+  background: url('closeup-head-great-angleheaded-dragon-gonocephalus-grandis_488145-389.jpg?text=Level') no-repeat center center / cover;
 
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 
