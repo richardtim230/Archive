@@ -139,12 +139,15 @@ a:hover {
 .faculty-grid,
 .department-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
-  padding: 20px;
-  position: center;
-  left: 0;
-  width: 100%;
+
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+  gap: 20px;
+
+  background-size: 100% 100%;
+
+  padding: 0 20px;
+
 }
 
 .faculty-card,
