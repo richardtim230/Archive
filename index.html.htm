@@ -17,6 +17,15 @@
   <link rel="stylesheet" href="styles.css">
 
   <script>
+    // Use debounce to limit frequent state updates
+function debounce(func, delay) {
+  let timeout;
+  return (...args) => {
+    clearTimeout(timeout);
+    timeout = setTimeout(() => func(...args), delay);
+  };
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     const redirectBtn = document.getElementById("redirect-btn");
 
