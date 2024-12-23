@@ -1391,7 +1391,15 @@ body:not(.level-page) #chemistry-level400 {
   margin: 10px 0;
 
 }
-
+/* Enable or disable GPU rendering */
+body {
+  transform: translateZ(0); /* Triggers hardware acceleration */
+        }
+/* Use GPU-accelerated animations */
+.element {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  will-change: transform, opacity;
+}
 
 /* Video Grid */
 .video-grid {
