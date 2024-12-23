@@ -26,7 +26,7 @@ a:hover {
   text-align: center;
   padding: 80px 20px;
   background: linear-gradient(120deg, #6a11cb, #2575fc);
-  color: blue;
+  color: white;
 }
     
   .header {
@@ -34,14 +34,14 @@ a:hover {
   }
 
 .header h1 {
-  font-size: 1.0rem;
+  font-size: 2.0rem;
   margin-bottom: 20px;
   font-weight: 700;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .header p {
-  font-size: 0.5rem;
+  font-size: 1.0rem;
   font: bold;
   font-weight: 500;
   opacity: 0.8;
@@ -1171,7 +1171,7 @@ left-margin: 0;
 
 }
 
-  #botany-level100 .level-card {
+  .botany-level100 .level-card {
 
   position: relative;
 
