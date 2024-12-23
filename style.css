@@ -406,6 +406,7 @@ body .department-page .homepage-header {
   padding: 40px 20px;
 
   text-align: center;
+    background-size: 100% 100%;
 
 }
 
@@ -454,7 +455,7 @@ body .department-page .homepage-header {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 
   gap: 20px;
-
+  background-size: 100% 100%;
   padding: 0 20px;
 
 }
@@ -466,7 +467,7 @@ body .department-page .homepage-header {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 
   gap: 20px;
-
+  background-size: 100% 100%;
   padding: 0 20px;
 
 }
@@ -478,10 +479,22 @@ body .department-page .homepage-header {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 
   gap: 20px;
-
+  background-size: 100% 100%;
   padding: 0 20px;
 
 }
+
+ #mathematics .level-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+  gap: 20px;
+  background-size: 100% 100%;
+  padding: 0 20px;
+
+}                               
 
 #zoology .level-card {
 
@@ -923,7 +936,7 @@ left-margin: 0;
 left-margin: 0;
 }
 
-.department .level-card {
+.department .level-card .img{
 
   position: relative;
 
